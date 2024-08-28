@@ -1,0 +1,59 @@
+    # Node.js dependencies
+node_modules/
+
+# Environment files
+config.env
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# Build directories
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.bak
+
+# Dependency directories
+bower_components/
+
+# Compiled output
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Package lock file
+package-lock.json
+
+# Miscellaneous
+*.zip
+*.tar.gz
+*.rar
+
+# Ignore all files in the `flags` directory
+flags/*
+
+# Ignore all files in the `icons` directory
+icons/*
+
+# Ignore all files in the `images` directory
+images/*
+
+# Ignore all files in the `vendor` directory
+vendor/*
+
+# Ignore all files in the `views/templet` directory
+views/templet/*
