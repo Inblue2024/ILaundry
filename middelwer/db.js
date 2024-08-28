@@ -14,13 +14,13 @@ var conn = mysql.createPool({
     }
 });
 
-conn.connect((err) => {
-  if (err) {
-      console.error('Database connection error:', err);
-      return;
-  }
-  console.log('Connected to the database.');
-});
+// conn.connect((err) => {
+//   if (err) {
+//       console.error('Database connection error:', err);
+//       return;
+//   }
+//   console.log('Connected to the database.');
+// });
 
 
   const mySqlQury =(qry)=>{
