@@ -3,15 +3,15 @@ const express = require('express');
 const mysql = require('mysql2');
 
 var conn = mysql.createPool({
-    host     : process.env.DB_HOST,
-    port     : process.env.DB_PORT || 3306,
-    user     : process.env.DB_USER,
-    password : process.env.DB_PASSWORD,
-    database : process.env.DB_NAME,
-    connectTimeout: 10000,
-    ssl: {
-        rejectUnauthorized: process.env.SSL_VERIFY !== 'false'
-    }
+  host     : "srv475.hstgr.io",
+  port     : process.env.DB_PORT || 3306,
+  user     : "u230766957_laundrydb",
+  password : "#Laundrydb@24",
+  database : "u230766957_laundrydb",
+  connectTimeout: 10000,
+  ssl: {
+      rejectUnauthorized: process.env.SSL_VERIFY !== 'false'
+  }
 });
 
 // conn.connect((err) => {
